@@ -1,0 +1,4 @@
+[core]
+    remote = rag_dataset
+['remote "rag_dataset"']
+    url = gs://couch-gpt-store/dvc_store
