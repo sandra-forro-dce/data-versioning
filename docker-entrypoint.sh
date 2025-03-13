@@ -9,5 +9,7 @@ gcsfuse --key-file=$GOOGLE_APPLICATION_CREDENTIALS $GCS_BUCKET_NAME /mnt/gcs_dat
 echo 'GCS bucket mounted at /mnt/gcs_data'
 mkdir -p /app/rag_dataset
 mount --bind /mnt/gcs_data/rag /app/rag_dataset
+mkdir -p /app/cpsycoun_dataset
+mount --bind /mnt/gcs_data/cpsycoun /app/cpsycoun_dataset
 
 pipenv shell
