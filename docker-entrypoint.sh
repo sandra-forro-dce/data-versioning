@@ -12,4 +12,4 @@ mount --bind /mnt/gcs_data/rag /app/rag_dataset
 mkdir -p /app/cpsycoun_dataset
 mount --bind /mnt/gcs_data/cpsycoun /app/cpsycoun_dataset
 
-pipenv shell
+pipenv shell 
